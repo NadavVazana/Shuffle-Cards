@@ -1,40 +1,62 @@
-# Shuffle-Cards
+# Shuffle Cards 
 
-This template should help get you started developing with Vue 3 in Vite.
+ 
+ ## Table of contents
+ 
+ > [Shuffle Cards Description](#desc)
+ 
+ > [Getting Started](#start)
+ 
+ > [Technologies](#tech)
+ 
+ > [Showcase](#showcase)
+ 
+ > [Authors](#authors)
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## <a id="desc" /> Mister Bitcoin Description
 
-## Type Support for `.vue` Imports in TS
+Shuffle Cards is an application that generates one of the 52 cards of the deck randomly. 
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## <a id="start" /> Getting Started
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Head to the repository on top and clone the project or download the files.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+git clone https://github.com/NadavVazana/Shuffle-Cards
 ```
 
-### Compile and Hot-Reload for Development
+initiate the local server with this command: 
 
-```sh
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+You should see on the terminal the url for the local application. copy it to your browser and you are ready to go!
 
-```sh
-npm run build
-```
+## <a id="showcase" /> Showcase
+
+### Homepage
+
+In the homepage, the user can simply press on the "Pick a card" button, and the application will show him a random card that was picked from the deck including his name!!
+
+
+<img src="https://res.cloudinary.com/ds8xkm0ue/image/upload/v1667264849/Untitled_hzapsa.png" />
+
+
+## <a id="tech" /> Technologies
+
+Shuffle Cards was built with Vue framework. also, the application is using the axios library to get a random card with an api request.
+
+
+
+## <a id="authors"/> Authors
+
+> [Nadav Vazana](https://github.com/NadavVazana)
+
+
+
+
+
+
